@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--슬라이딩으로 보여줄 뷰가 오른쪽으로 이동하게 하는 액션 코드-->
+    <!--<translate>태그를 이용해 오른쪽으로 이동하는 애니메이션을 정의한다.-->
+    <!--fromXDelta속성은 X축 어디서부터 이동할 것인지 그리고 toXDelta속성은 X축 어디까지 이동할 것인지 지정한다.-->
+    <!--100%는 화면 오른쪽 끝 지점을, 0%는 화면 왼쪽 끝 지검을 의미. 결국 뷰의 왼쪽 끝 지점에서 오른쪽 끝 지점까지 이동하는 것을 의미-->
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="100%p"
+        android:duration="1000">
+    </translate>
+</set>
